@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="vendorCompanyDetails">
+		<classes>
+			<class
+				name="com.traveVIV.version1.TestCase.VendorCompanyDetailsTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AdminCompanyDetailsApprove">
+		<classes>
+			<class
+				name="com.traveVIV.version1.TestCase.AdminCompanyDetailsApprovalTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="vendorAddProduct">
+		<classes>
+			<class
+				name="com.traveVIV.version1.TestCase.VendorAddProductsTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SearchingAddedProduct">
+		<classes>
+			<class
+				name="com.traveVIV.version1.TestCase.SearchingAddedProductTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
